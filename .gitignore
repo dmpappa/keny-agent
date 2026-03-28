@@ -1,0 +1,21 @@
+notepad .gitignore
+```
+
+Pegá esto:
+```
+# API Keys — NUNCA subir al repo
+.env
+
+# Entorno virtual — pesa mucho y no hace falta
+venv/
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Modelo de Whisper — pesa 244MB
+*.pt
+
+# Logs
+logs/
